@@ -45,7 +45,7 @@ plt.title("Correlation Matrix")
 plt.show()
 
 #Pairplot
-print("\n📊 Pairplot of Selected Features")
+print("\n Pairplot of Selected Features")
 sns.pairplot(df[['Survived', 'Age', 'Fare', 'Pclass']], hue='Survived')
 plt.show()
 
